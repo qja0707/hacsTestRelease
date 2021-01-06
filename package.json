@@ -1,0 +1,40 @@
+{
+  "name": "HACS",
+  "version": "1.0.0+20210106062213",
+  "description": "A TR-069 Auto Configuration Server (ACS)",
+  "homepage": "https://gloovir.com",
+  "keywords": [
+    "TR-069",
+    "CWMP",
+    "ACS"
+  ],
+  "author": "GLOOVIR <gloovir_support@gloovir.com>",
+  "license": "AGPL-3.0",
+  "preferGlobal": true,
+  "directories": {
+    "bin": "bin",
+    "tools": "tools"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "espresso-iisojs": "^1.0.3",
+    "iconv-lite": "^0.6.2",
+    "ipaddr.js": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.0.1",
+    "koa-jwt": "^4.0.0",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "later": "^1.2.0",
+    "mongodb": "^3.6.2",
+    "parsimmon": "^1.16.0",
+    "seedrandom": "^3.0.5",
+    "yaml": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {}
+}
